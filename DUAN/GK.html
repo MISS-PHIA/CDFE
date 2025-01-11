@@ -17,8 +17,9 @@
     <!-- nav -->
     <header>
       <a href="#" class="logo"><img src="img/logo.png" alt="" /></a>
-      <i class="bx bx-menu" id="memu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
       <ul class="navbar">
+        
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#products">Products</a></li>
@@ -26,8 +27,8 @@
       </ul>
       <!-- icons -->
       <div class="header-icon">
-        <i class="bx bx-cart-alt"></i>
-        <i class="bx bx-search" id="search-icon"></i>
+       <i class="bx bx-cart-alt"></i>
+      <i class="bx bx-search" id="search-icon"></i>
       </div>
 
       <!-- Search Box -->
@@ -77,11 +78,13 @@
       <div class="heading"><h2>Out Popular Products</h2></div>
       <div class="products-container">
         <div class="box">
-          <img src="img/p1.png" alt="" />
+         <a><img src="img/p1.png" alt="" /></a>
           <h3>Americano Pure</h3>
           <div class="content">
             <span>$25</span>
-            <a href="#">Add to cart</a>
+           <button onclick="addToCart('Sản phẩm 1', 25)">
+              Thêm vào giỏ hàng
+            </button>
           </div>
         </div>
         <div class="box">
@@ -89,7 +92,9 @@
           <h3>Americano Pure</h3>
           <div class="content">
               <span>$25</span>
-              <a href="#">Add to cart</a>
+              <button onclick="addToCart('Sản phẩm 2', 25)">
+                Thêm vào giỏ hàng
+              </button>
           </div>
         </div>
         <div class="box">
@@ -97,7 +102,9 @@
           <h3>Americano Pure</h3>
           <div class="content">
               <span>$25</span>
-              <a href="#">Add to cart</a>
+              <button onclick="addToCart('Sản phẩm 3', 25)">
+                Thêm vào giỏ hàng
+              </button>
           </div class="content">
         </div>
         <div class="box">
@@ -105,7 +112,9 @@
           <h3>Americano Pure</h3>
           <div class="content">
               <span>$25</span>
-              <a href="#">Add to cart</a>
+              <button onclick="addToCart('Sản phẩm 4', 25)">
+                Thêm vào giỏ hàng
+              </button>
           </div class="content">
         </div>
         <div class="box">
@@ -113,7 +122,8 @@
           <h3>Americano Pure</h3>
          <div class="content">
               <span>$25</span>
-              <a href="#">Add to cart</a>
+              <button class="Themvaogiohang" onclick="addToCart('Sản phẩm 5', 25)"> Thêm vào giỏ hàng 
+              </button>
          </div class="content">
         </div>
         <div class="box">
@@ -121,7 +131,8 @@
           <h3>Americano Pure</h3>
          <div class="content">
               <span>$25</span>
-              <a href="#">Add to cart</a>
+              <button class="Themvaogiohang" onclick="addToCart('Sản phẩm 6', 25)"> Thêm vào giỏ hàng 
+              </button>
          </div>
         </div>
       </div>
@@ -199,14 +210,14 @@
       <div class="footer-box">
         <h3>Contact</h3>
         <div class="contact">
-          <span><i class="bx bxs-map"></i>250 New York City, USA 10001</span>
+          <span><i class="bx bxs-map"></i>Hà Nội, HCM</span>
           <span><i class="bx bxs-phone"></i>+1 444444444</span>
           <span><i class="bx bxs-envelope"></i>coffeeshop.com</span>
         </div>
       </div>
      </section>
      <div class="copyright">
-      <p>&#169; CarpoolVenom All right reserved</p>
+      <p>&#169; ABC All right reserved</p>
      </div>
     <script src="main.js"></script>
   </body>
